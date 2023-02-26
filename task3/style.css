@@ -1,0 +1,209 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+  }
+
+.w1200{
+    width: 1230px;
+    padding: 0px 15px;
+    margin: auto;
+}
+.index{
+
+padding-bottom: 20px;
+}
+.index .title{
+    font-weight: bold;
+    text-align: center;
+    font-size: 43px;
+    padding-top: 13px;
+}
+.index .list{
+    
+padding-top: 160px;
+    
+text-align: center;
+}
+.index .list ul{
+    
+display: -webkit-box;
+    
+display: -moz-box;
+    
+display: -webkit-flex;
+    
+display: -moz-flex;
+    
+display: -ms-flexbox;
+    
+display: flex;
+    
+flex-wrap: wrap;
+}
+.index .list ul li{
+    
+float: left;
+    
+width: 33.333%;
+    
+padding-bottom: 140px;
+}
+.index .list ul li .icon{
+    
+}
+.index .list ul li .icon img{
+    
+height: 100px;
+}
+.index .list ul li .tit{
+    
+padding-top: 60px;
+    
+font-weight: bold;
+    
+font-size: 25px;
+    
+padding-bottom: 16px;
+}
+.index .list ul li .dec{
+    
+font-size: 18px;
+    
+width: 94%;
+    
+margin: auto;
+}
+.index .bottom{
+    
+background: #ffff70;
+    
+padding: 25px 38px;
+    
+position: relative;
+}
+.index .bottom .tit{
+    
+font-weight: bold;
+    
+font-size: 43px;
+    
+display: inline-block;
+    
+background: url(../assets/hand.png) no-repeat right;
+    
+padding-right: 73px;
+    
+background-size: auto 100%;
+}
+.index .bottom .dec{
+    
+font-size: 22px;
+    
+line-height: 1.6;
+}
+.index .bottom .dec p a{
+    
+display: inline-block;
+    
+vertical-align: middle;
+    
+color: #fff;
+    
+background: #8e42ff;
+    
+border-radius: 3px;
+    
+padding: 0px 8px;
+}
+.index .bottom .link{
+    
+position: absolute;
+    
+right: 40px;
+    
+bottom: 30px;
+}
+.index .bottom .link a{
+    
+    
+}
+.index .bottom .link a img{
+    
+height: 60px;
+}
+.index,.index *{
+
+}
+.index .list ul li{
+    cursor: pointer;
+}
+.index .list ul li:hover  {
+    opacity: .5;
+        -webkit-transition:all 0.4s;
+-o-transition:all 0.4s;
+-moz-transition:all 0.4s;
+-ms-transition:all 0.4s;
+transition:all 0.4s;
+}
+.index .bottom .dec p a:hover{
+    opacity: .7;
+        -webkit-transition:all 0.4s;
+-o-transition:all 0.4s;
+-moz-transition:all 0.4s;
+-ms-transition:all 0.4s;
+transition:all 0.4s;
+}
+.w1200{
+    max-width: 100%;
+}
+
+@media screen and (max-width: 992px){
+.index .list ul li{
+    width: 100%;
+    padding-bottom: 16vw;
+}
+.index .title{
+    font-size: 20px;
+}
+.index .list{
+    padding-top: 10vw;
+}
+.index .list ul li .tit{
+    padding-top: 40px;
+    font-size: 18px;
+}
+.index .list ul li .dec{
+font-size:15px;}
+.index .bottom .tit{
+    font-size: 35px;
+    background-position: 81% bottom;
+    background-size: 44px;
+    padding-right: 0;
+    line-height: 1.1;
+    background: none;
+}
+.index .bottom .tit i{
+    display: inline-block;
+    background: url(../assets/hand.png) no-repeat center center;
+    background-size: 40px;
+    height: 40px;
+    vertical-align: middle;
+    width: 40px;
+}
+.index .bottom{
+    text-align: center;
+}
+.index .bottom .dec{
+    font-size:18px;
+}
+.index .bottom .link{
+position:static;
+}
+.index .bottom .link a img{
+    display:block;
+    height:40px;
+    margin:3%auto;
+
+}
+}

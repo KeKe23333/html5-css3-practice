@@ -1,0 +1,116 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+html, body {
+    width:  100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container {
+    display: flex;
+    width: 420px;
+    position: relative;
+    height: 699px;
+    background-color: aqua;
+}
+.column {
+    width:  35px;
+    height:  699px;
+}
+.column:nth-child(odd) {
+    background-color: #021C2D;
+}
+.column:nth-child(even){
+    background-color: #00263F;
+}
+
+
+#purple {
+    background-color: #AE81FF;
+}
+#red {
+    background-color: #E94659;
+}
+    /* box to hold things */
+.boxes{
+    margin: auto;
+}
+.boxes .item{
+    position: absolute;
+    /* width: 35px; */
+}
+.boxes .item.item1{
+    width: 70px;
+    height: 70px;
+    left: 35px;
+    bottom: 1px;
+}
+.boxes .item.item2{
+    width: 105px;
+    left: 140px;
+    bottom: 212px;
+    height: 70px;
+}
+.boxes .item.item3 span{
+    background: #ae81ff;
+}
+.boxes .item.item3{
+    right: 37px;
+    bottom: 1px;
+    left: auto;
+}
+.boxes .item span:after{
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 0;
+    left: 2px;
+    top: 2px;
+    border-style: solid;
+    opacity: .8;
+    border-width: 7px 7px 0 0;
+    border-color: #fff transparent transparent transparent;
+
+}
+.boxes .item span{
+    position: absolute;
+    width: 33px;
+    height: 33px;
+    background: #e94659;
+}
+.boxes .item.item1 span:nth-child(1){
+    left: 1px;
+    top: 1px;
+}
+.boxes .item.item1 span:nth-child(2){
+    right: 1px;
+    top: 1px;
+}
+.boxes .item.item1 span:nth-child(3){
+    left: 1px;
+    bottom: 1px;
+}
+.boxes .item.item1 span:nth-child(4){
+    right: 1px;
+    bottom: 1px;
+}
+
+.boxes .item.item2 span:nth-child(1){
+    top:1px;
+    left: 37px;
+}
+.boxes .item.item2 span:nth-child(2){
+    left: 2px;
+    bottom: 1px;
+}
+.boxes .item.item2 span:nth-child(3){
+    left: 37px;
+    bottom: 1px;
+}
+.boxes .item.item2 span:nth-child(4){
+    right: 0px;
+    bottom: 1px;
+}
