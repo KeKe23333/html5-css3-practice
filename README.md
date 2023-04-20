@@ -1,3 +1,6 @@
+# css练习
+从简单的字体，到布局，熟练选择器，练习html和css
+
 # Assessment 1 - PicToCode
 
 ## Change Log
